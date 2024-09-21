@@ -1,5 +1,5 @@
 module.exports = {
-    userId: 'pouqueiffeufoddeu-4860@yopmail.com',
-    password: 'CSA4567$',
+    userId: 'standard_user',
+    password: 'secret_sauce',
   };
   

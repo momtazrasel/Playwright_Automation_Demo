@@ -4,9 +4,9 @@ module.exports = {
     //Locators using xpath
     LoginPage: {
       login: "//a[normalize-space()='Login']",
-      userEmailInput: "//input[@placeholder='Email']",
-      passwordInput: "//input[@placeholder='Password']",
-      loginButton: "//button[normalize-space()='Login']"
+      userEmailInput: "(//input[@id='user-name'])[1]",
+      passwordInput: "(//input[@id='password'])[1]",
+      loginButton: "(//input[@id='login-button'])[1]"
     },
 
     regs:  {
